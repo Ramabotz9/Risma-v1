@@ -10,11 +10,11 @@ hyzer = {
   "extendedTextMessage": {
   "text": '*Partyan Dulu ygy*',
   "title": wm,
-  'jpegThumbnail': 'https://telegra.ph/file/20509b31b6e05ff999daa.jpg',
+  'jpegThumbnail': 'https://telegra.ph/file/eabb6696cf296336effba.jpg',
         }
        } 
      }
-conn.sendAudio(m.chat, 'https://file.io/1BZKHiUuKXgL', hyzer, { packname: "sticker by", author: "ArullOfc" })
+conn.sendAudio(m.chat, 'https://file.io/1BZKHiUuKXgL', hyzer, { packname: "sticker by", author: "JarotOfc" })
 }
 
 handler.customPrefix = /^(Tes)$/i
