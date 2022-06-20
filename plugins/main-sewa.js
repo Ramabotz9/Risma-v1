@@ -10,8 +10,8 @@ let anu = `HALLO KAK 👋
 ━━━━━━━━━━━━━━━━━━━━
 ━━━[ *HARGA* ]━━
 • *1 MINGGU 1 GROUP* 5.000
-• *1 BULAN 1 GROUP:* 10.000
-• *PERMANEN 1 GROUP:* 20.000
+• *1 BULAN 1 GROUP:* 15.000
+• *PERMANEN 1 GROUP:* Bikin bot sendiri:v
 🤖
 ┗━━━━━━━━━━━━━━━━━━
 ┏━━━[ *PAYMENT*  ]━━
@@ -31,6 +31,6 @@ wa.me/${numberowner} (Owner)
 }
 handler.help = ['sewa']
 handler.tags = ['info']
-handler.command = /^(sewabot|arullsewa|sewa)$/i
+handler.command = /^(sewabot|sewa|sewa)$/i
 
 module.exports = handler
