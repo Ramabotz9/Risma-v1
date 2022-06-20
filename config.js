@@ -1,35 +1,35 @@
 //=============『 Utama 』================== //
-global.owner = ['6285822347348'] 
+global.owner = ['6285850539404'] 
 global.mods = [] 
 global.prems = [''] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'ArullOfc'
-global.numberowner = '6285822347348'
-global.instagram = 'https://instagram.com/sahrulwara_____'
-global.github = 'https://github.com/sahrull11'
-global.dana = '085822347348'
-global.pulsa = '085822347348,083843192208'
+global.nameowner = 'JarotOfc'
+global.numberowner = '6285850539404'
+global.instagram = 'https://instagram.com/oscarbotz_'
+global.github = 'https://github.com/robotew'
+global.dana = '085850539404'
+global.pulsa = '085850539404'
 global.gopay = ''
 
 //=============『 Info Bot 』=================//
-global.namebot = 'ArullBotzMD'
-global.gc = 'https://chat.whatsapp.com/Hs5rHr27xu49VRLgdliMfR'
-global.web = 'https://youtu.be/jOhhY7ef_qM' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.price1 = 'Permanen 15.000\n1 bulan 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
+global.namebot = 'JarotBotzMD'
+global.gc = 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+global.web = 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.price1 = 'perbulan 15.000\n3 minggu 10.000\n2 Minggu 7.000\n5 Bulan 60.000'
 
 //=======『 Tampilan Dan Lainnya 』============//
-global.fotonya1 = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg' //ini juga ganti 
+global.fotonya1 = 'https://telegra.ph/file/eabb6696cf296336effba.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/eabb6696cf296336effba.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '❚█══ArullBotz‖MD‖'
+global.wm = '❚█══𝐉𝐀𝐑𝐎𝐓 𝐁𝐎𝐓𝐙‖MD‖'
 global.watermark = wm
-global.wm2 = '                     「 ArullBotzMD あ⁩ 」'
-global.wm3 = '⫹⫺ ❚█══ArullBotz‖MD‖'
+global.wm2 = '                     「 𝐉𝐀𝐑𝐎𝐓 𝐎𝐅𝐅𝐂 あ⁩ 」'
+global.wm3 = '⫹⫺ ❚█══𝐉𝐀𝐑𝐎𝐓‖MD‖'
 global.htki = '––––––『' 
 global.htka = '』––––––'
-global.media = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg'
+global.media = 'https://telegra.ph/file/eabb6696cf296336effba.jpg'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.wait = '_*tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
@@ -37,7 +37,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*Stiker sedang dibuat*'
 global.packname = 'Sticker By'
-global.author = '© ArullOfc'
+global.author = '© 𝐉𝐀𝐑𝐎𝐓 𝐎𝐅𝐅𝐂'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
