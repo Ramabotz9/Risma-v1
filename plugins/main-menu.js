@@ -276,19 +276,19 @@ const fdoc = {
 if (teks == '404') {
 let menuu = 
 `╭──❉ 「 *${namebot}* 」❉──────
-║│➸⏰Aktif selama ${uptime}
-║│➸${Object.keys(global.db.data.users).length} Pengguna
-║│➸Mode : ${global.opts['self'] ? 'Self' : 'publik'}
-║│➸${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
-║│➸${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
+║│➪⏰Aktif selama ${uptime}
+║│➪${Object.keys(global.db.data.users).length} Pengguna
+║│➪Mode : ${global.opts['self'] ? 'Self' : 'publik'}
+║│➪${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
+║│➪${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
 ║╰─────────❉
 ║╭──❉「 *${name}* 」❉────── 
-║│➸Api : ${tag}
-║│➸ Limit : ${limit}
-║│➸ Role : ${role}
-║│➸ Premium : ${global.prem ? 'Yes' : 'No'}
-║│➸ Date : ${week} ${date}
-║│➸ Time : ${wib}
+║│➪Api : ${tag}
+║│➪ Limit : ${limit}
+║│➪ Role : ${role}
+║│➪ Premium : ${global.prem ? 'Yes' : 'No'}
+║│➪ Date : ${week} ${date}
+║│➪ Time : ${wib}
 ╰─────────❉`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
@@ -296,7 +296,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "⬣━〔Powered By ©ArullOfc〕━⬣\n       ▌│█║▌║▌║║▌║▌║█│▌",
+            footerText: "⬣━〔Powered By ©𝐉𝐚𝐫𝐨𝐭〕━⬣\n       ▌│█║▌║▌║║▌║▌║█│▌",
             mtype: 'listMessage',
             sections: [
               {
@@ -520,7 +520,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
                {
              quickReplyButton: {
-               displayText: 'RULES ARULLBOTZMD',
+               displayText: 'RULES JAROTBOTZMD',
                id: '.rules',
              }
 
@@ -547,7 +547,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(alive|panel|Arull|Menu|menu|help|\?)$/i
+handler.command = /^(alive|panel|Bot|Menu|menu|help|\?)$/i
 handler.register = true
 handler.owner = false
 handler.mods = false
