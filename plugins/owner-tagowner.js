@@ -18,7 +18,7 @@ Gak usah Malu-malu
 
 }
 
-handler.customPrefix = /@6285822347348 |@6285822347348/i
+handler.customPrefix = /@6285850539404 |@6285850539404/i
 
 handler.command = new RegExp
 
