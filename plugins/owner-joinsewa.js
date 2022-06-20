@@ -26,7 +26,7 @@ let handler = async (m, { conn, text, usedPrefix, args, participants }) => {
   if (e.length) await m.reply(`Sukses invite bot ke group\n\n${await conn.getName(res)}\n\nBot akan keluar secara otomatis setelah *${msToDate(global.db.data.chats[res].expired - now)}*`)
   if (e.length) await conn.reply(res, `Ada @${anubot} Owner-ku Di Sini,suport bot dengan cara suscribe , https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ.
 @${conn.user.jid.split(`@`)[0]} Jangan lupa suscribe 
-Bye😑
+oke
 Thanks dah invite Gua *${m.name}*`, fkonn, {
     mentions: d
      }).then(async () => {
