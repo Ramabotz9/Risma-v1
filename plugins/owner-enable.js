@@ -159,7 +159,7 @@ global.opts['self'] = !isEnable
       isAll = true
       if (!isOwner) {
         global.dfail('owner', m, conn)
-        throw false
+        throw 0
       } 
       chat.simi = isEnable
       break
