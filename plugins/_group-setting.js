@@ -2,7 +2,7 @@ let handler = async (m, { conn }) =>
 conn.relayWAMessage(
                     "listMessage":  {
                         "title": `Hai Kak ${conn.getName(m.sender)}\n`,
-                        "description": "\n\n*@ArullBotzMD*",
+                        "description": "\n\n*@JarotBotzMD*",
                         "footerText": "jika ada bug atau erorr Jangan tanya saya,karna saya juga gak tau.",
                         "buttonText": "SETELAN GRUB",
                         "listType": "SINGLE_SELECT",
