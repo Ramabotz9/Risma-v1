@@ -3,15 +3,15 @@ let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
 ╭─────{ *R͓̽U͓̽L͓̽E͓̽S͓̽* }─────
-│•Dιʅαɾαɳɠ Hιɳα Oɯɳҽɾ
-│•Dιʅαɾαɳɠ Sραɱ
-│•Dιʅαɾαɳɠ Tҽʅρ / Vƈ
-│•Jαɳɠαɳ ƈυʅιƙ Ⴆσƚ ɠɯ αɳʝιɳɠ
-│•Bσƚ Tιԃαƙ Mҽɳҽɾιɱα Sαʋҽ Kσɳƚαƙ
+│•➪𝐍𝐨 𝐡𝐢𝐧𝐚 𝐛𝐨𝐭
+│•➪𝐍𝐨 𝐬𝐩𝐚𝐦
+│•➪𝐍𝐨 𝐭𝐞𝐥𝐟𝐨𝐧/𝐕𝐜
+│•➪𝐍𝐨 𝐬𝐡𝐚𝐫𝐞 𝐯𝐢𝐫𝐭𝐞𝐱 𝐤𝐞 𝐰𝐚 𝐛𝐨𝐭
+│•➪𝐉𝐚𝐧𝐠𝐚𝐧 𝐩𝐚𝐤𝐚𝐢 𝐝𝐨𝐚𝐧𝐠 𝐝𝐞𝐤
 ┬
 ╰──────────···
 ╭─────{ *H͓̽U͓̽K͓̽U͓̽M͓̽* }─────
-│•KυႦʅσƈƙ Lυ αɳʝιɳɠ
+│•➪𝐁𝐚𝐧 𝐩𝐞𝐫𝐦𝐚𝐧𝐞𝐧
 ╰──────────···
 	`.trim()
   let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya2)).buffer()}, { upload: conn.waUploadToServer }) 
@@ -24,14 +24,14 @@ let krizyn = `
            hydratedButtons: [{
              urlButton: {
                displayText: '🤖GroupBot🤖',
-               url: 'https://chat.whatsapp.com/Hs5rHr27xu49VRLgdliMfR'
+               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
              }
 
            },
                 {
                urlButton: {
                displayText: 'YOUTUBE ME',
-               url: 'https://youtu.be/tH-0Uq_s_H4'
+               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
              }
 
            },
