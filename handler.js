@@ -718,14 +718,14 @@ module.exports = {
                 if (chat.welcome) {
                     let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
                     for (let user of participants) {
-                       let pp = 'https://telegra.ph/file/9e1c41e6bd5fe5f28c207.jpg'
+                       let pp = 'https://telegra.ph/file/eabb6696cf296336effba.jpg'
                         try {
                             pp = await this.profilePictureUrl(user, 'image')
                         } catch (e) {
                         } finally {
                             text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Yah,si Beban Masuk Grup').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
                                 (chat.sBye || this.bye || conn.bye || 'Sip, Beban Berkurang 1'))
-                                this.sendButtonImg(id, pp, text, "Group Message By ArullOfc", "Okee", "wkwk", null)
+                                this.sendButtonImg(id, pp, text, "Group Message By JarotOffc", "Okee", "wkwk", null)
                                 }
                     }
                 }
@@ -795,13 +795,13 @@ global.dfail = (type, m, conn) => {
   let name = conn.getName(m.sender)
   let msg = {
     rowner: `╭─֍〔 ıll *WARNING* llı 〕֍─
-⬡ Perintah ini hanya untuk ARULLOFC
+⬡ Perintah ini hanya untuk JAROTOFFC
 ╰─────────────────֍`,
     owner: `╭─֍〔 ıll *WARNING* llı 〕֍─
-⬡ Perintah ini hanya untuk ARULLOFC
+⬡ Perintah ini hanya untuk JAROTOFFC
 ╰─────────────────֍`,
     mods: `╭─֍〔 ıll *WARNING* llı 〕֍─
-⬡ Perintah ini hanya untuk ARULLOFC
+⬡ Perintah ini hanya untuk JAROTOFFC
 ╰─────────────────֍`,
     premium: `╭─֍〔 ıll *WARNING* llı 〕֍─
 ⬡ Fitur ini hanya tersedia untuk user Premium
